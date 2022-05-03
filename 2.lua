@@ -1,12 +1,13 @@
-vip = game.Players.gay
 
-function onChatted(msg)
-   if msg == "control/victims name" then
-game.Workspace.victims name:BreakJoint()
-local m = Instance.new("Message")
-m.Parent = game.Workspace
-m.Text = "woops look like it didnt work"
+Example: chat alert roblox
+bc = BrickColor.new("White") -- Change white to the colour you want.
+bc2 = BrickColor.new("White") -- Change white to the colour you want.
+while true do
+	game.StarterGui:SetCore("ChatMakeSystemMessage", {
+		Text = "rawr!"; -- Change "MuppetIsEpic!" to the alert you want.
+		Font = Enum.Font.Cartoon;
+		Color = bc.Color;
+		FontSize = Enum.FontSize.Size96
+	})
+	wait(300)
 end
-end
-
-vip.Chatted:connect(onChatted)
