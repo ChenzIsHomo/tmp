@@ -1,6 +1,6 @@
-t1 = "http://www.roblox.com/asset/?id=223238256"
-t2 = "http://www.roblox.com/asset/?id=201788175"
-t3 = "http://www.roblox.com/asset/?id=261113277"
+t1 = "http://www.roblox.com/asset/?id=8490127353"
+t2 = "http://www.roblox.com/asset/?id=8490127353"
+t3 = "http://www.roblox.com/asset/?id=8490127353"
 
 local p = game.Players:GetChildren()
 local w = game.Workspace:GetChildren()
